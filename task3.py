@@ -38,7 +38,7 @@ tax = subtotal * 0.095
 total = subtotal + tax
 
 # TODO: Round total to 2 decimal places using round()
-round = round(total, 2)
+total = round(total, 2)
 
 # TODO: Print receipt
 print("--------------------------")
