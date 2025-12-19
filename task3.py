@@ -1,5 +1,5 @@
 # Testing flag - will be set by test
-TESTING = True
+TESTING = False
 item = None
 price = None
 quantity = None
@@ -16,7 +16,7 @@ ITEM MENU:
 Invisibility Cloak.........$44.99
 Dragon Egg.....................$29.99
 """)
-print(s.menu)
+
 
 
 # Shopkeeper's rule: All purchases must be at least 3 items for good luck!
