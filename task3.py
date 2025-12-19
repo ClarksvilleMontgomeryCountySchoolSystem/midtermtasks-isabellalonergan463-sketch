@@ -32,7 +32,7 @@ if not TESTING:
     item, price, quantity = get_purchase_info()
 
 # TODO: Calculate subtotal, tax, and total
-subtotal = float(input(price * quantity))
+subtotal = price * quantity
 # Tax rate: 9.5%
 tax = subtotal * 0.095
 total = subtotal + tax
